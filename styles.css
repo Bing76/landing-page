@@ -13,8 +13,8 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header-logo {
@@ -32,6 +32,13 @@ ul {
 
 .title-section {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 32px;
 }
 
 .main-title {
@@ -48,11 +55,17 @@ ul {
 .title-image {
     color: white;
     background-color: grey;
-    width: 400px;
-    height: 200px;
+    width: 800px;
+    height: 250px;
     text-align: center;
     vertical-align: middle;
-    line-height: 200px;
+    line-height: 250px;
+}
+
+.title-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .sign-up-button {
@@ -61,7 +74,7 @@ ul {
     color: white;
     padding: 10px;
     border-radius: 15%;
-    width: 100px;
+    width: 128px;
     font-size: 16px;
     font-weight: bold;
 }
