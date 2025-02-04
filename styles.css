@@ -5,6 +5,7 @@ body {
 
 ul {
     list-style-type: none;
+    padding: 0px;
 }
 
 .header {
@@ -69,13 +70,47 @@ ul {
 }
 
 .sign-up-button {
-    border: 1px solid royalblue;
-    background-color: royalblue;
+    border: 1px solid #3883f6;
+    background-color: #3883f6;
     color: white;
     padding: 10px;
     border-radius: 8px;
     width: 128px;
     font-size: 16px;
     font-weight: bold;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding: 48px;
+}
+
+.info-image {
+    border: 4px solid #3883f6;
+    border-radius: 16px;
+    width: 150px;
+    height: 150px;
+}
+
+.info-subtext {
+    text-align: center;
+}
+
+.info-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.info-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
 }
 
